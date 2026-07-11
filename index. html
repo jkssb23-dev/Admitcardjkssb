@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Skill Test Portal</title>
+</head>
+<body>
+
+<h2>Skill Test Portal</h2>
+
+<input type="text" id="username" placeholder="Username"><br><br>
+
+<input type="password" id="password" placeholder="Password"><br><br>
+
+<button onclick="login()">Login</button>
+
+<script>
+function login(){
+
+var u=document.getElementById("username").value;
+var p=document.getElementById("password").value;
+
+if(u=="1900771302" && p=="Sandeep@2004"){
+window.location="dashboard.html";
+}else{
+alert("Invalid Username or Password");
+}
+
+}
+</script>
+
+</body>
+</html>
